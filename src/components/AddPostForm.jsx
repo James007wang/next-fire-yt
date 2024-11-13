@@ -9,7 +9,7 @@ import {
 
 const AddPostForm = ({ title = '', content = '', tags = [] }) => {
 	return (
-		<VStack as='form' mx='auto' maxWidth={400}>
+		<VStack as='form' mx='auto' maxWidth={400} action={addPost}>
 			<FormControl>
 				<FormLabel>Title</FormLabel>
 				<Input
